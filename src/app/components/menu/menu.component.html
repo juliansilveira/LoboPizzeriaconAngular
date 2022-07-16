@@ -1,0 +1,46 @@
+
+<div class="container-pizzas" *ngFor="let comida of comidaElegida">
+    <mat-card>
+        <mat-card-title>{{comida.plato}}</mat-card-title>
+        <mat-card-subtitle>{{comida.descripcion}}</mat-card-subtitle>
+        <p>Precio: ${{comida.precio}}</p>
+        <img src="{{comida.img}}">
+    </mat-card>
+</div>
+
+    <div class="container-card-sandwiches" *ngFor="let sandwich of
+        sandwiches">
+        <mat-card>
+            <mat-card-title>{{sandwich.comida}}</mat-card-title>
+            <mat-card-subtitle>{{sandwich.descripcion}}</mat-card-subtitle>
+            <p>Precio: ${{sandwich.precio}}</p>
+            <img src="{{sandwich.img}}">
+        </mat-card>
+    </div>
+
+    <div class="container-card-papas" *ngFor="let porcpapas of papa">
+        <mat-card>
+            <mat-card-title>{{porcpapas.comida}}</mat-card-title>
+            <mat-card-subtitle>{{porcpapas.descripcion}}</mat-card-subtitle>
+            <p>Precio: ${{porcpapas.precio}}</p>
+            <img src="{{porcpapas.img}}">
+        </mat-card>
+    </div>
+
+    <div class="container-card-empanadas" *ngFor="let empa of empas">
+        <mat-card>
+            <mat-card-title>{{empa.comida}}</mat-card-title>
+            <mat-card-subtitle>{{empa.descripcion}}</mat-card-subtitle>
+            <p>Precio: ${{empa.precio}}</p>
+            <img src="{{empa.img}}">
+        </mat-card>
+    </div>
+
+    <div class="container-card-promos" *ngFor="let promocion of promo">
+        <mat-card>
+            <mat-card-title>{{promocion.comida}}</mat-card-title>
+            <mat-card-subtitle>{{promocion.descripcion}}</mat-card-subtitle>
+            <p>Precio: ${{promocion.precio}}</p>
+            <img src="{{promocion.img}}">
+        </mat-card>
+    </div>

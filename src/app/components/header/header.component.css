@@ -1,0 +1,18 @@
+.Algo{
+    color: #2C334D;
+    background-color: #f33636fb;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2px 2px;
+    padding: 55px 5px;
+}
+
+img{
+    width: 6.5rem;
+    margin-left: 5px;
+}
+
+span{
+    padding: 0 10px;
+    color: aliceblue;
+}

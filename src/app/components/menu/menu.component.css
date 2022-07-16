@@ -1,0 +1,12 @@
+img{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+mat-card{
+    background-color: #f6fdf1;
+    margin: 10px;
+    padding: auto;
+}
